@@ -1,0 +1,38 @@
+body {
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+}
+
+.column {
+	height: 100%;
+	width: 50%;
+}
+
+.square {
+	display: block;
+	height: calc(100%/3);
+}
+.blue {
+	background-color: #131414;
+}
+
+.green {
+	background-color: #EBC637;
+}
+.pink {
+	background-color: #131414;
+}
+.green2 {
+	background-color: #EBC637;
+}
+.center-content {
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.restrict-img-size {
+	max-height: 100%;
+	max-width: 100%;
+}
